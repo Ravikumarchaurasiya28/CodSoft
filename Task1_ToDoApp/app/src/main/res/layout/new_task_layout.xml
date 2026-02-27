@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/newTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Add New Task" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTaskSaveButton"
+        android:layout_below="@+id/newTask"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:text="SAVE"
+        android:background="#9C27B0" />
+
+</RelativeLayout>
