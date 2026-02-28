@@ -1,0 +1,24 @@
+com.example.alarm
+color black
+color primary_color
+color white
+drawable alarm
+drawable baseline_add_alert_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id cancelAlarm
+id main
+id selectTime
+id setAlarm
+id textView
+layout activity_main
+layout activity_notification
+mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Alarm
+style Theme_Alarm
+xml backup_rules
+xml data_extraction_rules
